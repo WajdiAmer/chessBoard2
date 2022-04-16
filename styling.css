@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerDiv {
+    position: absolute;
+    top: 80px;
+    width: 750px;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+    border: 10px solid grey;
+}
+
+table {
+    border-spacing: 0px;
+}
+
+.whiteTile {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    /* border: 1px solid black; */
+}
+
+.blackTile {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    /* border: 1px solid white; */
+}
