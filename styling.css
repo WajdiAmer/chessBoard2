@@ -12,24 +12,26 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: lightgrey;
-    border: 10px solid grey;
+    background-color: rgb(255, 255, 255);
+    border: 10px solid rgb(0, 0, 0);
 }
 
 table {
     border-spacing: 0px;
+    text-align: center;
 }
 
-.whiteTile {
+.lightTile {
     width: 80px;
     height: 80px;
-    background-color: white;
+    background-color: rgb(206, 206, 206);
     /* border: 1px solid black; */
 }
 
-.blackTile {
+.darkTile {
     width: 50px;
     height: 50px;
-    background-color: black;
+    background-color: rgb(92, 92, 92);
     /* border: 1px solid white; */
 }
+
